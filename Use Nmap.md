@@ -17,5 +17,13 @@ Nmap以新颖的方式使原始iIP报文来发现网络上有那些主机，这�
    在Nmap中我们可以指定扫描一个C段，这个功能不需要其他额外的选项，只需要使用“——”进行连接。
          
           nmap 192.168.1.0-500
-二、Nmap主机发现
-    
+# 二、Nmap主机发现
+## 2.1第二节所要用到的几种扫描选项与解释
+      -sP Ping扫描
+      -P0 无Ping扫描
+      -PS TCP SYN Ping扫描
+      -PA TCP ACK Ping扫描
+      -PU UDP Ping扫描
+      -PE；-PP；-PM ICMP Ping Types扫描
+      -PR ARP Ping扫描
+      
