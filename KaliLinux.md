@@ -18,17 +18,17 @@
     tar -zxvf (           )
     cd vmware-tools-distrib
     ./vmware-install.pl
- ### 2、Update KaliLinux
-   sudo apt-get update
-   sudo apt-get upgrade
-   sudo apt-get install linux-source
- ### 3、Install SouGouPinYin
+ ### 3、Update KaliLinux
+      sudo apt-get update
+      sudo apt-get upgrade
+      sudo apt-get install linux-source
+ ### 4、Install SouGouPinYin
     sudo apt-get install fcitx
     sudo apt-get install fcitx-libs-qt
     Download SouGouPinYin For Linux
     dpkg -i File.deb
     sudo apt-get --fix-broken install
- ### 4、sudo apt-get install openvas
+ ### 5、sudo apt-get install openvas
     openvas-setup
     openvas-check-setup
     openvasmd --user=admin --new-password=(           )
